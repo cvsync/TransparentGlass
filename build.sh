@@ -1,5 +1,8 @@
 #! /bin/sh
 
+VER_MAJOR=1
+VER_MINOR=1
+
 RESOURCE_PACK_NAME=TransparentGlass
 
 RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}.zip
@@ -15,9 +18,12 @@ rm -f ${RESOURCE_PACK_FILE_JAVA} ${RESOURCE_PACK_FILE_BEDROCK}
 #
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
-cp -R ${RESOURCE_PACK_NAME}/assets      ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack.mcmeta ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack.png    ${TMPDIR}/
+cp -R ${RESOURCE_PACK_NAME}/assets   ${TMPDIR}/
+cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
+sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
+cat > ${TMPDIR}/pack.mcmeta
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
 rm -f -r ${TMPDIR}
 
@@ -27,8 +33,11 @@ rm -f -r ${TMPDIR}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack_manifest.json        ${TMPDIR}/
 cp -R ${RESOURCE_PACK_NAME}/pack.png                  ${TMPDIR}/pack_icon.png
+cat ${RESOURCE_PACK_NAME}/pack_manifest.json | \
+sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
+sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
+cat > ${TMPDIR}/pack_manifest.json
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_WIN10} *)
 rm -f -r ${TMPDIR}
 
@@ -40,5 +49,9 @@ mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
 cp -R ${RESOURCE_PACK_NAME}/manifest.json             ${TMPDIR}/
 cp -R ${RESOURCE_PACK_NAME}/pack.png                  ${TMPDIR}/pack_icon.png
+cat ${RESOURCE_PACK_NAME}/manifest.json | \
+sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
+sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
+cat > ${TMPDIR}/manifest.json
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} *)
 rm -f -r ${TMPDIR}
