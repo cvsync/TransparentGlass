@@ -4,14 +4,14 @@
     "name": "Transparent Glass",
     "description": "Created by Daemon-Systems",
     "uuid": "1a079b14-1367-49eb-9309-dcc80286c2b4",
-    "version": [ 1, 0, 2 ]
+    "version": [ XXXMAJORXXX, XXXMINORXXX, 0 ]
   },
   "modules": [
     {
       "description": "Created by Daemon-Systems",
       "type": "resources",
       "uuid": "3f53ce1d-8255-400e-92c0-aa316f8471ab",
-      "version": [ 1, 0, 2 ]
+      "version": [ XXXMAJORXXX, XXXMINORXXX, 0 ]
     }
   ]
 }

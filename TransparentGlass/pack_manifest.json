@@ -2,14 +2,14 @@
   "header": {
     "pack_id": "1a079b14-1367-49eb-9309-dcc80286c2b4",
     "name": "Transparent Glass",
-    "packs_version": "1.0.2",
+    "packs_version": "XXXMAJORXXX.XXXMINORXXX.0",
     "description": "Created by Daemon-Systems",
     "modules": [
       {
         "description": "Created by Daemon-Systems",
-        "version": "1.0.2",
+        "version": "XXXMAJORXXX.XXXMINORXXX.0",
         "uuid": "3f53ce1d-8255-400e-92c0-aa316f8471ab",
-        "type": "resource"
+        "type": "resources"
       }
     ]
   }
