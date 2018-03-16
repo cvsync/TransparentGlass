@@ -29,7 +29,7 @@ rm -f -r ${TMPDIR}
 #
 # for Bedrock Edition (Windows10)
 #
-rm -f ${RESOURCE_PACK_FILE_WIN10}
+rm -f ${RESOURCE_PACK_FILE_BEDROCK_WIN10}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
@@ -44,7 +44,7 @@ rm -f -r ${TMPDIR}
 #
 # for Bedrock Edition (iOS)
 #
-rm -f ${RESOURCE_PACK_FILE_PORTABLE}
+rm -f ${RESOURCE_PACK_FILE_BEDROCK_PORTABLE}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
