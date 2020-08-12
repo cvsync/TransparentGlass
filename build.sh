@@ -1,7 +1,7 @@
 #! /bin/sh
 
 VER_MAJOR=1
-VER_MINOR=5
+VER_MINOR=6
 UUID1=84efce45-6968-4945-92f5-864af6aee9e2
 UUID2=32b5da4e-b95b-450c-a287-83f8f2db7930
 
@@ -18,7 +18,7 @@ TMPDIR=./tmp
 #
 TEXTURES_SRCDIR=${RESOURCE_PACK_NAME}/assets/minecraft/textures/blocks
 TEXTURES_DSTDIR=${TMPDIR}/assets/minecraft/textures/block
-PACK_FORMAT=5
+PACK_FORMAT=6
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets
