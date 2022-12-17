@@ -18,7 +18,7 @@ TMPDIR=./tmp
 #
 TEXTURES_SRCDIR=${RESOURCE_PACK_NAME}/assets/minecraft/textures/blocks
 TEXTURES_DSTDIR=${TMPDIR}/assets/minecraft/textures/block
-PACK_FORMAT=10
+PACK_FORMAT=12
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets
