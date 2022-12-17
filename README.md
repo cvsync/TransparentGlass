@@ -2,7 +2,7 @@
 The Minecraft resource pack ``Transparent Glass'' , which replace glass blocks/panes with the very simple transparent one.
 
 ## Latest Version
-1.9.0
+1.10.0
 
 ## For Java Edition (1.19.3 and above) users
 1.) Download TransparentGlass.zip
