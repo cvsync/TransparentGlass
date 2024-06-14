@@ -38,8 +38,9 @@ sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
 
 #
 # for Bedrock Edition (Windows10)
@@ -55,8 +56,9 @@ sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/pack_manifest.json
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_WIN10} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_WIN10} . -i "*")
+sudo rm -f -r ${TMPDIR}
 
 #
 # for Bedrock Edition (iOS)
@@ -73,5 +75,9 @@ sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/manifest.json
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} . -i "*")
+sudo rm -f -r ${TMPDIR}
+
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.0
+cp ${RESOURCE_PACK_FILE_JAVA} ${RESOURCE_PACK_FILE_BEDROCK_WIN10} ${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} ${VER_MAJOR}.${VER_MINOR}.0/
