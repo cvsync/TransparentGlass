@@ -80,4 +80,4 @@ cat > ${TMPDIR}/manifest.json
 sudo rm -f -r ${TMPDIR}
 
 mkdir -p ${VER_MAJOR}.${VER_MINOR}.0
-cp ${RESOURCE_PACK_FILE_JAVA} ${RESOURCE_PACK_FILE_BEDROCK_WIN10} ${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} ${VER_MAJOR}.${VER_MINOR}.0/
+cp ./*.mcpack ./*.zip ${VER_MAJOR}.${VER_MINOR}.0/
