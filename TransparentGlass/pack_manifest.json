@@ -2,12 +2,12 @@
   "header": {
     "pack_id": "XXXUUID1XXX",
     "name": "Transparent Glass",
-    "packs_version": "XXXMAJORXXX.XXXMINORXXX.0",
+    "packs_version": "XXXMAJORXXX.XXXMINORXXX.XXXREVXXX",
     "description": "Created by OkanGames2525",
     "modules": [
       {
         "description": "Created by OkanGames2525",
-        "version": "XXXMAJORXXX.XXXMINORXXX.0",
+        "version": "XXXMAJORXXX.XXXMINORXXX.XXXREVXXX",
         "uuid": "XXXUUID2XXX",
         "type": "resources"
       }
