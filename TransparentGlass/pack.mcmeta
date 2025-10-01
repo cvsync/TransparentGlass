@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": XXXPACKFORMATXXX,
+    "min_format": [ XXXPACKFORMATXXX, 0 ],
+    "max_format": [ XXXPACKFORMATXXX, 0 ],
     "description": "Transparent Glass (Created by OkanGames2525) vXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
   }
 }
