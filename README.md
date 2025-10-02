@@ -4,7 +4,7 @@ The Minecraft resource pack ``Transparent Glass'' , which replace glass blocks/p
 
 ## Latest Version
 
-1.22.0
+1.22.1
 
 ## For Java Edition (1.21.9 or later) users
 
