@@ -6,7 +6,7 @@ The Minecraft resource pack ``Transparent Glass'' , which replace glass blocks/p
 
 1.22.1
 
-## For Java Edition (1.21.9 or later) users
+## For Java Edition (1.21.9/1.21.10 or later) users
 
 1.) Download TransparentGlass.zip
 
