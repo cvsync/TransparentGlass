@@ -94,9 +94,9 @@ Try version 1.3.0, as these files are stored in the `1.3.0` directory.
 
 ## For Windows10/Windows11 Bedrock Edition users
 
-1.) Download `TransparentGlassBE.zip`
+1.) Download `TransparentGlassBE.zip` from the `1.24.0` directory.
 
-2.) Put it into `C:\Users\<Username>\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs`
+2.) Place it in `C:\Users\<Username>\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs`
 
 ## For iOS Bedrock Edition users
 
