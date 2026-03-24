@@ -96,4 +96,4 @@ sed "s///g" > ${TMPDIR}/${_destfile}
 sudo rm -f -r ${TMPDIR}
 
 mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
-cp ./*.zip ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
+cp ./*.mcpack ./*.zip ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
