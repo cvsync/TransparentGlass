@@ -2,7 +2,7 @@
 
 VER_MAJOR=1
 VER_MINOR=24
-VER_REV=0
+VER_REV=1
 
 MAX_PACK_FORMAT=84
 MAX_PACK_FORMAT_MINOR=0
@@ -16,10 +16,12 @@ UUID2=32b5da4e-b95b-450c-a287-83f8f2db7930
 RESOURCE_PACK_NAME=TransparentGlass
 
 RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}.zip
-RESOURCE_PACK_FILE_BEDROCK_WIN10=${RESOURCE_PACK_NAME}BE.zip
-RESOURCE_PACK_FILE_BEDROCK_PORTABLE=${RESOURCE_PACK_NAME}.mcpack
+RESOURCE_PACK_FILE_BEDROCK=${RESOURCE_PACK_NAME}.mcpack
 
 TMPDIR=./tmp
+
+rm -f -r ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
 
 #
 # for Java Edition (1.13 or above)
@@ -51,33 +53,13 @@ sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
 #
-# for Bedrock Edition (Windows10)
+# for Bedrock Edition
 #
-rm -f ${RESOURCE_PACK_FILE_BEDROCK_WIN10}
-rm -f -r ${TMPDIR}
-mkdir -p ${TMPDIR}
-cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack.png                  ${TMPDIR}/pack_icon.png
-_destfile=pack_manifest.json
-cat ${RESOURCE_PACK_NAME}/${_destfile} | \
-sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
-sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
-sed "s/XXXREVXXX/${VER_REV}/g" | \
-sed "s/XXXUUID1XXX/${UUID1}/g" | \
-sed "s/XXXUUID2XXX/${UUID2}/g" | \
-sed "s///g" > ${TMPDIR}/${_destfile}
-(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_WIN10} . -i "*")
-sudo rm -f -r ${TMPDIR}
-
-#
-# for Bedrock Edition (iOS)
-#
-rm -f ${RESOURCE_PACK_FILE_BEDROCK_PORTABLE}
+rm -f ${RESOURCE_PACK_FILE_BEDROCK}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
@@ -92,8 +74,5 @@ sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_BEDROCK_PORTABLE} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_BEDROCK} . -i "*")
 sudo rm -f -r ${TMPDIR}
-
-mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
-cp ./*.mcpack ./*.zip ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/

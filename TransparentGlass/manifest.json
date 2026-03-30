@@ -4,7 +4,8 @@
     "name": "Transparent Glass",
     "description": "Created by OkanGames2525",
     "uuid": "XXXUUID1XXX",
-    "version": [ XXXMAJORXXX, XXXMINORXXX, XXXREVXXX ]
+    "version": [ XXXMAJORXXX, XXXMINORXXX, XXXREVXXX ],
+    "min_engine_version": [1, 16, 0]
   },
   "modules": [
     {
@@ -13,5 +14,9 @@
       "uuid": "XXXUUID2XXX",
       "version": [ XXXMAJORXXX, XXXMINORXXX, XXXREVXXX ]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": ["OkanGames2525"],
+    "url": "https://github.com/cvsync/TransparentGlass"
+  }
 }

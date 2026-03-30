@@ -4,11 +4,11 @@ The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes 
 
 ## Latest Version
 
-1.24.0
+1.24.1
 
 ## For Java Edition (26.1 or later) users
 
-1.) Download the resource pack from the `1.24.0` directory.
+1.) Download the resource pack from the `1.24.1` directory.
 
 2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 
@@ -92,16 +92,22 @@ Try version 1.4.0, as these files are stored in the `1.4.0` directory.
 
 Try version 1.3.0, as these files are stored in the `1.3.0` directory.
 
-## For Windows10/Windows11 Bedrock Edition users
+## For Bedrock Edition (Windows10/Windows11) users
 
-1.) Download `TransparentGlassBE.zip` from the `1.24.0` directory.
+1.) Exit Minecraft.
 
-2.) Place it in `C:\Users\<Username>\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs`
+2.) Download `TransparentGlass.mcpack` from the `1.24.1` directory.
 
-## For iOS Bedrock Edition users
+3.) Double-Click the resource pack.
 
-1.) Select `TransparentGlass.mcpack`
+4.) Minecraft will launch and display the message "Import started...".
 
-2.) Enter the "Open by Minecraft"
+5.) Wait until the message "Successfully imported 'Transparent Glass'" appears.
 
-3.) Wait until "Successful" message is shown.
+## For Bedrock Edition (iOS/Android) users
+
+1.) Select `TransparentGlass.mcpack` from the `1.24.1` directory.
+
+2.) Tap "Open by Minecraft".
+
+3.) Wait until the message "Successful" appears.
