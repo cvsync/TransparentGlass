@@ -92,7 +92,7 @@ Try version 1.4.0, as these files are stored in the `1.4.0` directory.
 
 Try version 1.3.0, as these files are stored in the `1.3.0` directory.
 
-## For Bedrock Edition (Windows10/Windows11) users
+## For Bedrock Edition users
 
 1.) Exit Minecraft.
 
@@ -103,11 +103,3 @@ Try version 1.3.0, as these files are stored in the `1.3.0` directory.
 4.) Minecraft will launch and display the message "Import started...".
 
 5.) Wait until the message "Successfully imported 'Transparent Glass'" appears.
-
-## For Bedrock Edition (iOS/Android) users
-
-1.) Select `TransparentGlass.mcpack` from the `1.24.1` directory.
-
-2.) Tap "Open by Minecraft".
-
-3.) Wait until the message "Successful" appears.
