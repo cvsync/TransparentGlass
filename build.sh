@@ -76,3 +76,5 @@ sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_BEDROCK} . -i "*")
 sudo rm -f -r ${TMPDIR}
+
+ls -l ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
