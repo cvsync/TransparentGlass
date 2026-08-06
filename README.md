@@ -6,21 +6,21 @@ The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes 
 
 1.24.2
 
-## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later) users
+## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later)
 
 1.) Download the resource pack from the `1.24.2` directory.
 
 2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 
-## For Java Edition (1.21.9/1.21.10/1.21.11) users
+## For Java Edition (1.21.9/1.21.10/1.21.11)
 
 Try version 1.23.1, as these files are stored in the `1.23.1` directory.
 
-## For older Java Edition users
+## For older Java Edition
 
 [Old Releases](OLD_RELEASES.md)
 
-## For Bedrock Edition users
+## For Bedrock Edition
 
 1.) Exit Minecraft.
 
