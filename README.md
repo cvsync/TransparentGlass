@@ -2,6 +2,8 @@
 
 The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes with the very simple, transparent one.
 
+ガラスのテクスチャをよりシンプルで透明感のあるデザインに変更するマインクラフトのリソースパックです。
+
 ## Latest Version
 
 1.24.2
@@ -31,3 +33,9 @@ Try version 1.23.1, as these files are stored in the `1.23.1` directory.
 4.) Minecraft will launch and display the message "Import started...".
 
 5.) Wait until the message "Successfully imported 'Transparent Glass'" appears.
+
+## Images
+
+Glass / Glass Pane / Gray Stained Glass
+
+![TransparentGlass Sample Image](./images/TransparentGlass.png "TransparentGlass Sample Image")
