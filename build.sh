@@ -1,5 +1,12 @@
 #! /bin/sh
 
+#
+# Transparent Glass
+#
+# The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes with the very simple, transparent one.
+# https://github.com/cvsync/TransparentGlass
+#
+
 VER_MAJOR=1
 VER_MINOR=24
 VER_REV=2
