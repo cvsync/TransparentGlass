@@ -3,7 +3,7 @@
 #
 # Transparent Glass
 #
-# The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes with the very simple, transparent one.
+# A Minecraft resource pack that gives glass blocks and glass panes a simpler, more transparent appearance.
 # https://github.com/cvsync/TransparentGlass
 #
 
