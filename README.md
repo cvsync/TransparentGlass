@@ -22,11 +22,11 @@ On Windows, the default location is:
 
 ### Minecraft 1.21.9/1.21.10/1.21.11
 
-Use version 1.23.1 instead, available in the `1.23.1` directory.
+Use version 1.23.1 instead. The corresponding file is available in the `1.23.1` directory.
 
 ### Older Minecraft versions
 
-See the [Old Releases](OLD_RELEASES.md) for older versions of the resouce pack.
+See the [Old Releases](OLD_RELEASES.md) for older versions of the resource pack.
 
 ## Bedrock Edition
 
