@@ -1,38 +1,44 @@
 # Transparent Glass
 
-The Minecraft resource pack, ``Transparent Glass,'' replaces glass blocks/panes with the very simple, transparent one.
+A Minecraft resource pack that gives glass blocks and glass panes a simpler, more transparent appearance.
 
-ガラスのテクスチャをよりシンプルで透明感のあるデザインに変更するマインクラフトのリソースパックです。
+ガラスブロックや板ガラスのテクスチャを、よりシンプルで透明感のあるデザインに変更するマインクラフトのリソースパックです。
 
-## Latest Version
+## Latest Release
 
 1.24.2
 
-## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later)
+## Java Edition
 
-1.) Download the resource pack from the `1.24.2` directory.
+### Minecraft 26.1/26.1.1/26.1.2/26.2 or later
 
-2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
+1. Download the resource pack from the `1.24.2` directory.
 
-## For Java Edition (1.21.9/1.21.10/1.21.11)
+2. Place the downloaded file in your Minecraft `resourcepacks` folder.
 
-Try version 1.23.1, as these files are stored in the `1.23.1` directory.
+On Windows, the default location is:
 
-## For older Java Edition
+`C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 
-[Old Releases](OLD_RELEASES.md)
+### Minecraft 1.21.9/1.21.10/1.21.11
 
-## For Bedrock Edition
+Use version 1.23.1 instead, available in the `1.23.1` directory.
+
+### Older Minecraft versions
+
+See the [Old Releases](OLD_RELEASES.md) for older versions of the resouce pack.
+
+## Bedrock Edition
 
 1.) Exit Minecraft.
 
 2.) Download `TransparentGlass.mcpack` from the `1.24.2` directory.
 
-3.) Double-Click / Tap the resource pack.
+3.) Double-Click or tap the downloaded file.
 
-4.) Minecraft will launch and display the message "Import started...".
+4.) Minecraft will launch and display the message `Import started...`.
 
-5.) Wait until the message "Successfully imported 'Transparent Glass'" appears.
+5.) Wait until the message `Successfully imported 'Transparent Glass'` appears.
 
 ## Images
 
