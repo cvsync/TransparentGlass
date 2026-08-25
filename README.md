@@ -26,7 +26,7 @@ Try version 1.23.1, as these files are stored in the `1.23.1` directory.
 
 1.) Exit Minecraft.
 
-2.) Download `TransparentGlass.mcpack` from the `1.24.1` directory.
+2.) Download `TransparentGlass.mcpack` from the `1.24.2` directory.
 
 3.) Double-Click / Tap the resource pack.
 
