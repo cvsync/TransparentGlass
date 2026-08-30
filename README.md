@@ -1,3 +1,5 @@
+<kbd><img src="./images/pack.png" alt="resource pack icon" style="background-color: black; padding: 2px;"></img></kbd>
+
 # Transparent Glass
 
 A Minecraft resource pack that gives glass blocks and glass panes a simpler, more transparent appearance.
