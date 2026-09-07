@@ -1,4 +1,4 @@
-<kbd><img src="./Transparent/pack.png" alt="resource pack icon"></img></kbd>
+<kbd><img src="./TransparentGlass/pack.png" alt="resource pack icon"></img></kbd>
 
 # Transparent Glass
 
