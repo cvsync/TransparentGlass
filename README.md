@@ -8,13 +8,13 @@ A Minecraft resource pack that gives glass blocks and glass panes a simpler, mor
 
 ## Latest Release
 
-1.24.2
+1.24.3
 
 ## Java Edition
 
-### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
+### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 / 26.3 or later
 
-1. Download the resource pack from the `1.24.2` directory.
+1. Download the resource pack from the `1.24.3` directory.
 
 2. Place the downloaded file in your Minecraft `resourcepacks` folder.
 
@@ -34,7 +34,7 @@ See the [Old Releases](OLD_RELEASES.md) for older versions of the resource pack.
 
 1. Exit Minecraft.
 
-2. Download `TransparentGlass.mcpack` from the `1.24.2` directory.
+2. Download `TransparentGlass.mcpack` from the `1.24.3` directory.
 
 3. Double-click or tap the downloaded file.
 
