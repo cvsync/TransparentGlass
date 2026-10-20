@@ -46,7 +46,7 @@ do
 done
 # silver -> light_gray
 cp ${TEXTURES_SRCDIR}/glass_silver.png ${TEXTURES_DSTDIR}/light_gray_stained_glass.png
-cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
@@ -70,8 +70,8 @@ rm -f ${RESOURCE_PACK_FILE_BEDROCK}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/manifest.json             ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack.png                  ${TMPDIR}/pack_icon.png
+cp ${RESOURCE_PACK_NAME}/manifest.json ${TMPDIR}/manifest.json
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack_icon.png
 _destfile=manifest.json
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
